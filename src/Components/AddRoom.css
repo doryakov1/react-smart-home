@@ -1,0 +1,102 @@
+.room-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    margin-top: calc(5px + 2vmin);
+    padding: 15px;
+    font-weight: bold;
+    font-size: calc(5px + 2vmin);
+}
+
+.room-select input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    width: calc(208px + 2vmin);
+    font-size: calc(6px + 2vmin);
+    border: none;
+    box-shadow: 1px 1px 1px 1px darkgray;
+}
+
+.room-select .color-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    width: calc(228px + 2vmin);
+    height: calc(35px + 2vmin);
+    font-size: calc(6px + 2vmin);
+    border: none;
+    box-shadow: 1px 1px 1px 1px darkgray;
+}
+
+.room-select .room-name{
+    background: whitesmoke;
+}
+
+.room-select select ,option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    width: calc(225px + 2vmin);
+    font-size: calc(6px + 2vmin);
+    border: none;
+    box-shadow: 1px 1px 1px 1px darkgray;
+    background: whitesmoke;
+    outline:none;
+}
+
+.room-select input:hover {
+    transition: 0.6s;
+    background: lightgray;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.room-select select:hover {
+    transition: 0.6s;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.room-select button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    margin-left: 50px;
+    margin-right: calc(200px + 2vmin);
+    padding: 10px;
+    width: calc(60px + 2vmin);
+    font-size: calc(6px + 2vmin);
+    background: steelblue;
+    color: white;
+    border: none;
+}
+
+.room-select button:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
+.room-select span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: calc(10px + 2vmin);
+    color: orange;
+}

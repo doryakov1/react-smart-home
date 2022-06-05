@@ -1,0 +1,123 @@
+.room-details {
+    width: 100%;
+    font-size: calc(10px + 2vmin);
+}
+
+.room-header {
+    width: 100%;
+}
+
+.room-details .room-header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-details .room-header .link {
+    text-decoration: none;
+}
+
+.room-details .room-header .link,
+.nav-back {
+    display: flex;
+    background: none;
+    justify-content: left;
+    align-items: left;
+    font-size: calc(20px + 2vmin);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 3px;
+    padding: 3px;
+}
+
+.room-details .room-header .room-header-details {
+    font-size: calc(10px + 2vmin);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+.room-details .alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: orange;
+}
+
+
+.room-details .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.room-details .products .product-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: calc(125px + 2vmin);
+    height: calc(45px + 2vmin);
+    font-size: calc(5px + 2vmin);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.room-details .product-menu #product-list {
+    display: none;
+    position: absolute;
+    left: calc(100% - 55px);
+    margin: 5px;
+    padding: 10px;
+}
+
+.room-details .product-menu .product-show {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.room-details .product-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.room-details .product-menu .product-select {
+    margin: 5px;
+    padding: 5px;
+    opacity: 0;
+}
+
+.room-details .product-menu .product-select select,
+option {
+    font-size: calc(5px + 2vmin);
+    width: calc(150px + 2vmin);
+    outline: none;
+}
+
+.room-details .product-menu .product-select button {
+    background: steelblue;
+    font-weight: bold;
+    color: white;
+    font-size: calc(5px + 2vmin);
+    width: calc(50px + 2vmin);
+    cursor: pointer;
+}
+
+.room-details .product-menu #product-list:checked~.product-select {
+    transition: 0.6s;
+    opacity: 100%;
+}

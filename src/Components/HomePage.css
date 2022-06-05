@@ -1,0 +1,85 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.home-page button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px; */
+    margin: 20px;
+    margin-top:  calc(10px + 2vmin);
+    background: steelblue;
+    width: calc(125px + 2vmin);
+    height: calc(125px + 2vmin);
+    position: sticky;
+    bottom: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    font-size: calc(50px + 2vmin);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-page button:hover{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.home-page .link {
+    text-decoration: none;
+}
+
+
+.rooms-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 5px;
+}
+
+.rooms-buttons .link {
+  text-decoration: none;
+}
+
+.room-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: calc(8px + 2vmin);
+  width: calc(70px + 2vmin);
+  height:calc(70px + 2vmin);
+  overflow:hidden;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.room-button:hover {
+transition: 0.6s;
+color:steelblue;
+box-shadow: 2px 2px 2px 2px steelblue;
+letter-spacing: 1px;
+}
