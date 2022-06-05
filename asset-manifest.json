@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-smart-home/static/css/main.1ca75999.css",
+    "main.js": "/react-smart-home/static/js/main.b150e446.js",
+    "static/js/787.61b4cd6a.chunk.js": "/react-smart-home/static/js/787.61b4cd6a.chunk.js",
+    "index.html": "/react-smart-home/index.html",
+    "main.1ca75999.css.map": "/react-smart-home/static/css/main.1ca75999.css.map",
+    "main.b150e446.js.map": "/react-smart-home/static/js/main.b150e446.js.map",
+    "787.61b4cd6a.chunk.js.map": "/react-smart-home/static/js/787.61b4cd6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ca75999.css",
+    "static/js/main.b150e446.js"
+  ]
+}
